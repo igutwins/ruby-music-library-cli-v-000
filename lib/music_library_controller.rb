@@ -5,6 +5,7 @@ class MusicLibraryController
   end
 
   def call
+<<<<<<< HEAD
 
     input = ""
 
@@ -88,5 +89,10 @@ class MusicLibraryController
 
    puts "Playing #{song.name} by #{song.artist.name}" if song
  end
+=======
+    puts "Welcome to your music library!"
+    puts "To list all of your songs, enter 'list songs'."
+  end
+>>>>>>> 380be759fd250389c5cb1a1dead8a2e9b64be2dd
 
 end
